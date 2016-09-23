@@ -7,4 +7,4 @@
 - 01_use-package.el
 - 05_nlinum.el
 - 10_company-mode.el
-
+- 50_multi-term.el
