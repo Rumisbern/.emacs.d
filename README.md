@@ -11,3 +11,4 @@
 - 05_nlinum.el
 - 10_company-mode.el
 - 50_multi-term.el
+- 60_markdown.el
