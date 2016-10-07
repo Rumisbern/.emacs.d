@@ -15,6 +15,7 @@
 - 10_company-mode.el
 - 50_multi-term.el
 - 60_markdown.el
+- 61_open-junk-file.el
 
 ## 参考
 [akisute3](https://github.com/akisute3/dotfiles/tree/master/.emacs.d)
