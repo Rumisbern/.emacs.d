@@ -6,6 +6,8 @@
     $ cd ~/.emacs.d/themes
     $ curl -LO https://github.com/emacs-jp/replace-colorthemes/raw/master/desert-theme.el
     $ git clone --recursive https://github.com/capitaomorte/yasnippet ~/.emacs.d/site-lisp/yasnippet
+	# 以下Macのみ
+	$ git clone git://github.com/hayamiz/twittering-mode.git ~/.emacs.d/site-lisp/twittering-mode
     
 ## package-installする必要がある設定ファイル
 各設定ファイルを開いて`;;;(package-install ~`の行末尾で`C-x C-e`でインストール可能
@@ -15,6 +17,7 @@
 - 10_company-mode.el
 - 50_multi-term.el
 - 60_markdown.el
+- 60_php-mode.el
 - 61_open-junk-file.el
 
 ## 参考
