@@ -3,3 +3,4 @@ elpa/*
 site-lisp/*
 themes/*
 !.gitkeep
+tramp
