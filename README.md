@@ -6,6 +6,7 @@
     $ cd ~/.emacs.d/themes
     $ curl -LO https://github.com/emacs-jp/replace-colorthemes/raw/master/desert-theme.el
     $ git clone --recursive https://github.com/capitaomorte/yasnippet ~/.emacs.d/site-lisp/yasnippet
+	$ git clone https://github.com/jaypei/emacs-neotree.git ~/.emacs.d/site-lisp/neotree
 	# 以下Macのみ
 	$ git clone git://github.com/hayamiz/twittering-mode.git ~/.emacs.d/site-lisp/twittering-mode
     
