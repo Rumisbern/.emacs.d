@@ -20,6 +20,7 @@
 - 60_markdown.el
 - 60_php-mode.el
 - 61_open-junk-file.el
+- 62_rinari.el
 
 ## 参考
 [akisute3](https://github.com/akisute3/dotfiles/tree/master/.emacs.d)
