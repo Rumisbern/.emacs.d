@@ -15,6 +15,7 @@
 
 - 01_use-package.el
 - 05_nlinum.el
+- 08_ido-mode.el
 - 10_company-mode.el
 - 50_multi-term.el
 - 60_markdown.el

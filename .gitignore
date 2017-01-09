@@ -5,3 +5,4 @@ themes/*
 !.gitkeep
 tramp
 ido.last
+smex-items

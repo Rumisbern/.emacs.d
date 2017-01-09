@@ -14,7 +14,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (rhtml-mode rinari company-web company-php web-mode php-mode open-junk-file markdown-mode multi-term company nlinum use-package))))
+    (ido-vertical-mode smex rhtml-mode rinari company-web company-php web-mode php-mode open-junk-file markdown-mode multi-term company nlinum use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
