@@ -2,10 +2,6 @@
 #name : <table><thead>...<thead><tbody>...</tbody></table>
 # --
 <table>
-  <thead>
-    $1
-  </thead>
-  <tbody>
-    $2
-  </tbody>
+  <caption>$1</caption>
+  $2
 </table>
