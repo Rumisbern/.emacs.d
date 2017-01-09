@@ -1,0 +1,4 @@
+#contributor : Rumisbern <tail.zabiatsuta@gmail.com>
+#name : <tr>...</tr>
+# --
+<tr>$1</tr>
