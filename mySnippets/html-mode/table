@@ -1,0 +1,11 @@
+#contributor : Rumisbern <tail.zabiatsuta@gmail.com>
+#name : <table><thead>...<thead><tbody>...</tbody></table>
+# --
+<table>
+  <thead>
+    $1
+  </thead>
+  <tbody>
+    $2
+  </tbody>
+</table>
