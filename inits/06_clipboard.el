@@ -17,6 +17,6 @@
       (process-send-eof proc))))
 
 (if (or darwin-p carbon-p)
-  (setq interprogram-cut-function 'paste-to-osx)
-  (setq interprogram-paste-function 'copy-from-osx))
+  ((setq interprogram-cut-function 'paste-to-osx)
+   (setq interprogram-paste-function 'copy-from-osx)))
 
