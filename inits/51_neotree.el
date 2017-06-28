@@ -4,7 +4,9 @@
 ;; F8キーで開く
 (global-set-key (kbd "C-c t") 'neotree-toggle)
 ;; 隠しファイルをデフォルトで表示
-(setq neo-show-hidden-files t)
+;; (setq neo-show-hidden-files t)
+;; 隠しファイルの設定
+(setq neo-hidden-regexp-list '("\\.cs\\.meta$" "\\.pyc$" "\\.elc$" "^__pycache__$"))
 ;; ファイル検索
 (defun neotree-project-dir ()
   "Open NeoTree using the git root."
