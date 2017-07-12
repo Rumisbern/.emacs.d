@@ -10,3 +10,6 @@ smex-items
 .\#*
 eshell
 url
+kkcrc
+.python-environments/*
+ac-comphist.dat
