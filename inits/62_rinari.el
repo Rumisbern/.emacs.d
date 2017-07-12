@@ -7,7 +7,7 @@
 ;; Rinari
 (require 'rinari)
 ;; rhtml(erb.html)を編集するときに使うelisp
-(require 'rhtml-mode)
-(add-hook 'rhtml-mode-hook
-	  (lambda () (rinari-launch)))
+;; (require 'rhtml-mode)
+;; (add-hook 'rhtml-mode-hook
+;; 	  (lambda () (rinari-launch)))
 
