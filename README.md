@@ -8,9 +8,9 @@
     $ curl -LO https://github.com/emacs-jp/replace-colorthemes/raw/master/desert-theme.el
     $ git clone --recursive https://github.com/capitaomorte/yasnippet ~/.emacs.d/site-lisp/yasnippet
     $ git clone https://github.com/jaypei/emacs-neotree.git ~/.emacs.d/site-lisp/neotree
+    $ mkdir ~/junk
     # 以下Macのみ
     $ git clone git://github.com/hayamiz/twittering-mode.git ~/.emacs.d/site-lisp/twittering-mode
-
 
 ## package-installする必要がある設定ファイル
 ``` M-x package-install-selected-packages ``` やっておけば大丈夫かも
@@ -26,6 +26,10 @@
 - 60_php-mode.el
 - 61_open-junk-file.el
 - 62_rinari.el
+
+## その他
+
+- org-modeの設定は~/DropBox/share/上に作成してあるのでdropboxをインストールする
 
 ## 参考
 [akisute3](https://github.com/akisute3/dotfiles/tree/master/.emacs.d)
