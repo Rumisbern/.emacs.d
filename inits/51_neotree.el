@@ -19,4 +19,9 @@
 	  (neotree-find file-name))
       (message "Could not find git project root."))))
 (define-key neotree-mode-map (kbd "C-c C-p") 'neotree-project-dir)
+;; 行番号非表示
+(with-eval-after-load 'neotree
+  (add-hook 'neotree-mode-hook
+            (lambda () (with-current-buffer " *NeoTree*"
+                         (nlinum-mode -1)))))
 
