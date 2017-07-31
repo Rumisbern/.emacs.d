@@ -24,5 +24,5 @@
     (progn
       ;; フルスクリーン
       (set-frame-parameter nil 'fullscreen 'fullboth)
-      (set-face-attribute 'default nil :height 150)
+      (set-face-attribute 'default nil :height 140)
       (scroll-bar-mode 0)))
