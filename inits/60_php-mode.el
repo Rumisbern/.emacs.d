@@ -17,10 +17,10 @@
 ;;   :mode (("\\.html?\\'" . web-mode)
 ;;          ("\\.php\\'"   . web-mode)))
 
-(use-package company-php
-  :init
-  (add-hook 'php-mode-hook 'company-php))
+;; (use-package company-php
+;;   :init
+;;   (add-hook 'php-mode-hook 'company-php))
 
-(use-package company-web
-  :init
-  (add-hook 'php-mode-hook 'company-web))
+;; (use-package company-web
+;;   :init
+;;   (add-hook 'php-mode-hook 'company-web))
