@@ -26,3 +26,17 @@
       (set-frame-parameter nil 'fullscreen 'fullboth)
       (set-face-attribute 'default nil :height 140)
       (scroll-bar-mode 0)))
+
+;; for mac
+(when (memq window-system '(mac ns))
+  (create-fontset-from-ascii-font
+   "Menlo-14:weight=normal:slant=normal"
+   nil
+   "osaka")
+  (set-fontset-font
+   "fontset-osaka"
+   'unicode
+   (font-spec :family "Osaka" :size 16)
+   nil
+   'append)
+  (add-to-list 'default-frame-alist '(font . "fontset-osaka")))
