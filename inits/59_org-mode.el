@@ -9,9 +9,9 @@
 ;; 拡張子がorgのファイルを開いた時，自動的にorg-modeにする
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 ;; orgディレクトリ
-(setq org-directory "~/Dropbox/share")
+(setq org-directory "~/Dropbox/share/org-mode")
 ;; org-default-notes-fileのファイル名
-(setq org-default-notes-file "notes.org")
+(setq org-default-notes-file "index.org")
 ;; TODO状態
 (setq org-todo-keywords
       '((sequence "TODO(t)" "WAIT(w)" "|" "DONE(d)" "SOMEDAY(s)")))
@@ -21,7 +21,7 @@
 
 ;; org-capture
 (setq org-capture-templates
-      '(("t" "TODO" entry (file+headline "~/Dropbox/share/TODO.org" "Inbox")
+      '(("t" "TODO" entry (file+headline "~/Dropbox/share/org-mode/index.org" "Inbox")
          "*** TODO %?\n    CAPTURED_AT: %a\n    %i")))
 
 ;; org-agenda
