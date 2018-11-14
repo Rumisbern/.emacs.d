@@ -14,7 +14,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (flycheck-rust racer rust-mode js2-mode jedi web-mode auto-complete coffee-mode find-file-in-project ido-vertical-mode smex rhtml-mode rinari company-web company-php php-mode open-junk-file markdown-mode multi-term company nlinum use-package))))
+    (company-go flycheck yaml-mode latex-math-preview yatex flycheck-rust racer rust-mode js2-mode jedi web-mode auto-complete coffee-mode find-file-in-project ido-vertical-mode smex rhtml-mode rinari company-web company-php php-mode open-junk-file markdown-mode multi-term company nlinum use-package)))
+ '(tab-width 4))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -29,3 +30,4 @@
  '(web-mode-html-attr-value-face ((t (:foreground "#82AE46"))))
  '(web-mode-html-tag-face ((t (:foreground "#E6B422" :weight bold))))
  '(web-mode-server-comment-face ((t (:foreground "#D9333F")))))
+(put 'upcase-region 'disabled nil)
