@@ -12,7 +12,7 @@
            (local-set-key (kbd "M-.") 'godef-jump)
            (set (make-local-variable 'company-backends) '(company-go))
            (company-mode)
-           (setq indent-tabs-mode nil)
+           (setq indent-tabs-mode t)
            (setq c-basic-offset 2)
            (setq tab-width 2)))
   )
