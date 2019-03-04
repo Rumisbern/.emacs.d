@@ -19,6 +19,9 @@
 ;; help prefix by C-?
 (global-set-key (kbd "M-?") 'help-for-help)
 
+;; ignore bell
+(setq ring-bell-function 'ignore)
+
 ;; for window system
 (if window-system
     (progn
