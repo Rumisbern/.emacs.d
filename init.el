@@ -14,7 +14,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-go flycheck yaml-mode latex-math-preview yatex flycheck-rust racer rust-mode js2-mode jedi web-mode auto-complete coffee-mode find-file-in-project ido-vertical-mode smex rhtml-mode rinari company-web company-php php-mode open-junk-file markdown-mode multi-term company nlinum use-package)))
+    (git-gutter-fringe+ visual-regexp-steroids slim-mode projectile copy-file-on-save company-go flycheck yaml-mode latex-math-preview yatex flycheck-rust racer rust-mode js2-mode jedi web-mode auto-complete coffee-mode find-file-in-project ido-vertical-mode smex rhtml-mode rinari company-web company-php php-mode open-junk-file markdown-mode multi-term company nlinum use-package)))
  '(tab-width 4))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
