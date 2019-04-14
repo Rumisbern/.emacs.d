@@ -12,11 +12,12 @@
 
 (defun paste-to-osx (text &optional push)
   (let ((process-connection-type nil))
-    (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
-      (process-send-string proc text)
-      (process-send-eof proc))))
+    (when (or (eq system-type 'darwin) (eq system-type 'gnu/linux))
+      (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+        (process-send-string proc text)
+        (process-send-eof proc)))))
 
-(when (or darwin-p carbon-p)
-  (setq interprogram-cut-function 'paste-to-osx)
-  (setq interprogram-paste-function 'copy-from-osx))
+;; (when (or (eq system-type 'darwin) (eq system-type 'gnu/linux))
+;;   (setq interprogram-cut-function 'paste-to-osx)
+;;   (setq interprogram-paste-function 'copy-from-osx))
 
