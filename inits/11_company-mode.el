@@ -2,6 +2,7 @@
 
 (use-package company
   :config
+  (global-company-mode)
   (setq company-auto-expand t) ;; 1個目を自動的に補完
   (setq company-transformers '(company-sort-by-backend-importance)) ;; ソート順
   (setq company-idle-delay 0) ; 遅延なしにすぐ表示
