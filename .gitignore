@@ -18,3 +18,5 @@ recentf
 shellenv.el
 network-security.data
 latex-math-preview-cache/*
+.lsp-python/*
+.lsp-session-*
