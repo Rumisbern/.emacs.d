@@ -20,3 +20,4 @@ network-security.data
 latex-math-preview-cache/*
 .lsp-python/*
 .lsp-session-*
+lib/*

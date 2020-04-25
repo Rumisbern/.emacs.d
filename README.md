@@ -27,9 +27,10 @@
 - 61_open-junk-file.el
 - 62_rinari.el
 
-## その他
+## org-mode
 
 - org-modeの設定は~/DropBox/share/上に作成してあるのでdropboxをインストールする
+- org-babelでplantumlを使用するので、~/.emacs.d/lib/plantuml.jarを設置すること
 
 ## 参考
 [akisute3](https://github.com/akisute3/dotfiles/tree/master/.emacs.d)
